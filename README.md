@@ -39,4 +39,4 @@ s
 
 ## 👤 Autor
 
-- **Tu Nombre** - [bryanfn14](https://github.com/bryanfn14)
+- **Bryan Fernández** - [bryanfn14](https://github.com/bryanfn14)
