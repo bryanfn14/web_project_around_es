@@ -35,8 +35,6 @@ Para escalar este proyecto y mejorar su arquitectura, se tienen contempladas las
 
 ---
 
-s
-
 ## 👤 Autor
 
 - **Bryan Fernández** - [bryanfn14](https://github.com/bryanfn14)
