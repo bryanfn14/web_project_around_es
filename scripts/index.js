@@ -25,6 +25,6 @@ const initialCards = [
   },
 ];
 
-initialCards.forEach((object) => {
-  console.log(object.name);
+initialCards.forEach((card) => {
+  console.log(card.name);
 });
