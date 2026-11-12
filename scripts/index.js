@@ -27,10 +27,6 @@ const initialCards = [
   },
 ];
 
-initialCards.forEach((card) => {
-  console.log(card.name);
-});
-
 const profileEditButton = document.querySelector(".profile__edit-button");
 const editProfilePopup = document.querySelector("#edit-popup");
 const closeProfilePopup = editProfilePopup.querySelector(".popup__close");
@@ -41,11 +37,6 @@ const editProfileName = editModal.querySelector(".popup__input_type_name");
 const editProfileDescription = editModal.querySelector(
   ".popup__input_type_description",
 );
-
-const cardTemplate = document
-  .querySelector("#card-template")
-  .content.querySelector(".card");
-
 const cardsContainer = document.querySelector(".cards__list");
 const cardImagePopup = document.querySelector("#image-popup");
 const closeImagePopup = cardImagePopup.querySelector(".popup__close");
@@ -57,6 +48,9 @@ const editNewCardName = newCardForm.querySelector(
   ".popup__input_type_card-name",
 );
 const editNewCardLink = newCardForm.querySelector(".popup__input_type_url");
+const cardTemplate = document
+  .querySelector("#card-template")
+  .content.querySelector(".card");
 
 let openedPopup = null;
 
