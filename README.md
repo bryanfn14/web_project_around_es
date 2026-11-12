@@ -29,7 +29,7 @@ Este proyecto parte de una estructura base en HTML y estilos visuales creados en
 
 Para escalar este proyecto y mejorar su arquitectura, se tienen contempladas las siguientes mejoras:
 
-- [ ] **Refactorización modular:** Organizar el código JavaScript usando módulos ES6 (`import` / `export`) para facilitar el mantenimiento.
+- [x] **Refactorización modular:** Organizar el código JavaScript usando módulos ES6 (`import` / `export`) para facilitar el mantenimiento.
 - [ ] **Integración con Servidor (Backend):** Conectar la aplicación con un servidor backend para guardar y mantener la persistencia de las tarjetas creadas, los "me gusta" y la información del perfil.
 - [ ] **Autenticación de Usuarios:** Implementar la lógica para permitir iniciar sesión y cerrar sesión de manera segura.
 - [ ] **Actualización de Avatar:** Agregar la funcionalidad para cambiar la foto de perfil del usuario.
