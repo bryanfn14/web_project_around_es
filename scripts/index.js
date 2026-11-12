@@ -198,8 +198,7 @@ const setEventListeners = () => {
       closeModal(openedPopup);
     }
   });
+  enableValidation();
 };
 
 setEventListeners();
-
-enableValidation();
